@@ -3,7 +3,7 @@ const { ApolloServer } = require("apollo-server-express");
 const express = require("express");
 const http = require("http");
 
-const typeDefs = require("./Schema/typeDefs");
+const typeDefs = require("./Schema/TypeDefs");
 const resolvers = require("./Schema/Resolvers");
 
 const startApolloServer = async (typeDefs, resolvers) => {
